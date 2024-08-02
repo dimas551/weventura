@@ -78,22 +78,3 @@ Your Weventura application should now be up and running. You can access it at `h
 Email: admin@example.com
 Password: 12345678
 ```
-
-### Noted: 
-
-```bash
-The TinyMCE API Key can be changed using an account from your own device
-
-Open Folder:
-- resources
-    - Templates
-        - admin.blade.php
-
-then change the part code
-
-<script src="https://cdn.tiny.cloud/1/YOUR_API_KEY/tinymce/5/tinymce.min.js"
-referrerpolicy="origin"></script>
-```
-
-## License
-```This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.```
