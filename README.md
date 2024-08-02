@@ -1,4 +1,4 @@
-# Pegasus
+# Weventura
 
 ## Introduction
 
@@ -35,7 +35,7 @@ Open the `.env` file and update the database connection settings:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=pegasus
+DB_DATABASE=weventura
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -70,7 +70,7 @@ php artisan storage:link
 php artisan serve
 ```
 
-Your Pegasus application should now be up and running. You can access it at `http://127.0.0.1:8000`.
+Your Weventura application should now be up and running. You can access it at `http://127.0.0.1:8000`.
 
 ### Step 10: Tes Login
 
